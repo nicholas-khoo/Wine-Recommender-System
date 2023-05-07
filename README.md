@@ -107,8 +107,24 @@ The mean score being 0.56 indiciates that the overall sentiment of the wine revi
 The following models were trained and FunkSVD performed the best among the 11 models. </br>
 |Model|ave_precision@k_score|ave_recall@k_score|
 |---|---|---|
-|FunkSVD|0.867917|0.257780
-|SVD|0.865417|0.257334
+|**FunkSVD**|**0.867917**|**0.257780**|
+|SVD|0.865417|0.257334|
+|Baseline Predictor|0.822917|0.251537|
+|KNN Baseline|0.822917|0.251537|
+|Slope One|0.805417|0.250240|
+|KNN Basic|0.805417|0.250240|
+|KNN Means|0.805417|0.250240|
+|KNN ZScore|0.805417|0.250240|
+|Co-clustering|0.802917|0.249946|
+|Normal Predictor|0.719583|0.205594|
+|NonNegative Matrix Factorization|0.715417|0.246805|
+
+Hyperparameter tuning was then performed on FunkSVD to further enhance the performance. The final results are below:
+|Model|ave_precision@k_score|ave_recall@k_score|
+|---|---|---|
+|**Tuned FunkSVD**|**0.852778**|**0.225906**|
+|FunkSVD|0.867917|0.257780|
+|SVD|0.865417|0.257334|
 |Baseline Predictor|0.822917|0.251537|
 |KNN Baseline|0.822917|0.251537|
 |Slope One|0.805417|0.250240|
