@@ -24,10 +24,10 @@ It was later discovered in the Terms of Use that the use of scrapping tools was 
 Source: https://www.winemag.com/terms-of-use/
 
 Instead of scraping the website, two sources of data were explored:
-1) Wine Enthusiast Magazine dataset containing 130k reviews
-Source: https://www.kaggle.com/datasets/christopheiv/winemagdata130k
-2) Wine descriptors dataset from an existing github project
-Source: https://github.com/RoaldSchuring/wine_recommender
+1) Wine Enthusiast Magazine dataset containing 130k reviews </br>
+(https://www.kaggle.com/datasets/christopheiv/winemagdata130k)
+2) Wine descriptors dataset from an existing github project </br>
+(https://github.com/RoaldSchuring/wine_recommender)
 
 # Data Dictionary
 ## Wine Reviews
