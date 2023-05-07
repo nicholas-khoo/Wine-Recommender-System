@@ -91,7 +91,6 @@ Additionally, the higher demand for wines from these regions compared to wines f
 <p align="center">
   <img src="https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Top%2010%20Bigrams.png" alt="Top 10 Bigrams" />
 </p>
-![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Top%2010%20Bigrams.png) </br>
 Fruit flavors are highly emphasized in the descriptions, with `fruit flavors` and `cherry fruit` being two of the bigrams. Other common descriptors include `full-bodied`, `black cherry`, `black pepper`, and `dark chocolate`.
 
 The mention of specific grape varieties such as `cabernet sauvignon`, `cabernet franc`, and `petit verdot` also indicates that these grapes are popular and commonly used in winemaking.
