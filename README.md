@@ -54,3 +54,23 @@ Instead of scraping the website, two sources of data were explored:
 |level_3|object|A subcategory of the descriptor that provides additional detail about the attribute being evaluated (e.g. "fruit sweetness" for the "sweetness" descriptor).|
 |level_2|object|A broader category that groups together related descriptors and level_3 subcategories (e.g. "flavor").|
 |level_1|object|The highest level of categorization that groups together the level_2 categories (e.g. "aroma and flavor").|
+
+# Exploratory Data Analysis
+
+![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Wine%20Prices%20Distribution.png)
+
+![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Wine%20Rating%20Distribution.png)
+
+![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Rating%20%26%20Price%20Correlation.png)
+
+![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Mean%20Points%20by%20Province.png)
+
+![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Average%20Price%20by%20Province.png)
+
+![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Top%2010%20Words.png)
+
+![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Top%2010%20Bigrams.png)
+
+![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Wordcloud.png)
+
+![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/sentimentscore.png)
