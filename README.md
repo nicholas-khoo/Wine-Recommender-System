@@ -56,30 +56,42 @@ Instead of scraping the website, two sources of data were explored:
 |level_1|object|The highest level of categorization that groups together the level_2 categories (e.g. "aroma and flavor").|
 
 # Exploratory Data Analysis
-![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Wine%20Prices%20Distribution.png) </br>
+<p align="center">
+  <img src="[https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Top%2010%20Bigrams.png]" alt="Wine Prices Distribution" />
+</p>
 Distribution of wine prices is heavily right-skewed with majority of the wines being priced below approximately USD 100.
 
-![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Wine%20Rating%20Distribution.png) </br>
+<p align="center">
+  <img src="https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Wine%20Rating%20Distribution.png" alt="Wine Ratings Distribution" />
+</p>
 Wines with ratings of 90-92 are the most common in the dataset, with over 3,000 wines receiving these ratings. This suggests that these ratings may be the most "typical" or "average" for wines in this dataset.
 
 Wines with ratings below 89 or above 95 are relatively rare, with fewer than 500 wines receiving these ratings. This suggests that wines with extreme ratings are less common in the dataset, which could be due to a variety of factors, such as the scoring criteria used by the tasters, the selection of wines in the dataset, or other factors.
 
 There are only a small number of wines in the dataset with ratings above 95. This could suggest that these wines are particularly rare or exceptional, and may be of particular interest to wine enthusiasts or collectors.
 
-![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Rating%20%26%20Price%20Correlation.png) </br>
+<p align="center">
+  <img src="https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Rating%20%26%20Price%20Correlation.png" alt="Ratings vs Prices Correlation" />
+</p>
 There is a slight correlation between "points" and "price", but not a very strong one.
 
-![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Mean%20Points%20by%20Province.png) </br>
+<p align="center">
+  <img src="https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Mean%20Points%20by%20Province.png" alt="Mean Points by Province" />
+</p>
 The plot suggests that wines produced in California tend to receive higher ratings on average than wines produced in the other three states. This could be due to a variety of factors, such as the climate and geography of the region, the types of grapes that are grown there, the expertise of the winemakers, or the reputation of the region.
 
 Similarly, the fact that Oregon and Washington have higher average ratings than New York suggests that there may be differences in the quality of wines produced in these regions, or differences in the preferences of wine critics and consumers.
 
-![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Average%20Price%20by%20Province.png) </br>
+<p align="center">
+  <img src="https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Average%20Price%20by%20Province.png" alt="Average Price by Province" />
+</p>
 These regions may produce higher quality wines as consumers are often willing to pay a premium for them, and production costs may be higher as well, which consequently drives up the price of the wines.
 
 Additionally, the higher demand for wines from these regions compared to wines from other regions could also contribute to the higher prices observed.
 
-![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Top%2010%20Words.png) </br>
+<p align="center">
+  <img src="https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Top%2010%20Words.png" alt="Top 20 Words" />
+</p>
 `flavors`, `fruit`, and `cherry`: These words suggest that wine drinkers pay close attention to the taste of the wine and the presence of fruit flavors, particularly cherry. This could be useful information for winemakers who are interested in creating wines with strong and enjoyable flavors.
 
 `aromas` and `nose`: These words suggest that wine drinkers pay attention to the wine's aroma or scent. This could be useful information for winemakers who want to create wines with a pleasant and distinctive aroma.
@@ -97,10 +109,14 @@ The mention of specific grape varieties such as `cabernet sauvignon`, `cabernet 
 
 The use of terms like `french oak` suggests that the type of oak used for aging may also be an important factor in the flavor profile of the wines.
 
-![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Wordcloud.png) </br>
+<p align="center">
+  <img src="https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Wordcloud.png" alt="Word Cloud" />
+</p>
 Similarly to the Top 10 words, the word cloud provides a better visual representation of the most frequent words appearing in the wine reviews.
 
-![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/sentimentscore.png) </br>
+<p align="center">
+  <img src="https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/sentimentscore.png" alt="Sentiment Score" />
+</p>
 Majority of the sentiments have a positive sentiment. The negative sentiment scores are more spread out and less frequent, which results in a left-skewed distribution.
 
 The mean score being 0.56 indiciates that the overall sentiment of the wine reviews is positive.
