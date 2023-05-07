@@ -88,6 +88,9 @@ Additionally, the higher demand for wines from these regions compared to wines f
 
 `palate` and `finish`: These words suggest that wine drinkers pay attention to the overall experience of drinking the wine, including the way it feels in the mouth and the aftertaste. This information could be useful for winemakers who are interested in creating wines that offer a satisfying and enjoyable drinking experience from start to finish.
 
+<p align="center">
+  <img src="https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Top%2010%20Bigrams.png" alt="Top 10 Bigrams" />
+</p>
 ![](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Top%2010%20Bigrams.png) </br>
 Fruit flavors are highly emphasized in the descriptions, with `fruit flavors` and `cherry fruit` being two of the bigrams. Other common descriptors include `full-bodied`, `black cherry`, `black pepper`, and `dark chocolate`.
 
