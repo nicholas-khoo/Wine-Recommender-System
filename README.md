@@ -100,6 +100,7 @@ Additionally, the higher demand for wines from these regions compared to wines f
 <p align="center">
   <img src="https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Top%2010%20Words.png" alt="Top 20 Words" />
 </p>
+
 `flavors`, `fruit`, and `cherry`: These words suggest that wine drinkers pay close attention to the taste of the wine and the presence of fruit flavors, particularly cherry. This could be useful information for winemakers who are interested in creating wines with strong and enjoyable flavors.
 
 `aromas` and `nose`: These words suggest that wine drinkers pay attention to the wine's aroma or scent. This could be useful information for winemakers who want to create wines with a pleasant and distinctive aroma.
