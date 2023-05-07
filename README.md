@@ -58,7 +58,7 @@ Instead of scraping the website, two sources of data were explored:
 # Exploratory Data Analysis
 
 <p align="center">
-  <img src="[https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Top%2010%20Bigrams.png]" alt="Wine Prices Distribution" />
+  <img src="https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Wine%20Prices%20Distribution.png" alt="Wine Prices Distribution" />
 </p>
 Distribution of wine prices is heavily right-skewed with majority of the wines being priced below approximately USD 100.
 
