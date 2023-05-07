@@ -149,7 +149,7 @@ The following models were trained and FunkSVD performed the best among the 11 mo
 Hyperparameter tuning was then performed on FunkSVD to further enhance the performance. The final results are below:
 |Model|ave_precision@k_score|ave_recall@k_score|
 |---|---|---|
-|**Tuned FunkSVD**|**0.852778**|**0.225906**|
+|**Tuned FunkSVD**|**0.952778**|**0.225906**|
 |FunkSVD|0.867917|0.257780|
 |SVD|0.865417|0.257334|
 |Baseline Predictor|0.822917|0.251537|
