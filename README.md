@@ -20,7 +20,7 @@ Data was originally scrapped from Wine Enthusiast Magazine (https://www.winemag.
 
 It was later discovered in the Terms of Use that the use of scrapping tools was prohibited, as such, the scraping step was abandoned. You may still find the python code written for the scraping process in the code folder - 00_Data_Collection.ipynb.
 
-![Wine Enthusiast Magazine Terms of Use](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/wine-mag-terms.png)
+![Wine Enthusiast Magazine Terms of Use](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/wine-mag-terms.png) </br>
 Source: https://www.winemag.com/terms-of-use/
 
 Instead of scraping the website, two sources of data were explored:
