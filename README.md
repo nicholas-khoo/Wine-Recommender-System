@@ -21,3 +21,36 @@ Data was originally scrapped from Wine Enthusiast Magazine (https://www.winemag.
 It was later discovered in the Terms of Use that the use of scrapping tools was prohibited, as such, the scraping step was abandoned. You may still find the python code written for the scraping process in the code folder - 00_Data_Collection.ipynb.
 
 ![Wine Enthusiast Magazine Terms of Use](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/wine-mag-terms.png)
+Source: https://www.winemag.com/terms-of-use/
+
+Instead of scraping the website, two sources of data were explored:
+1) Wine Enthusiast Magazine dataset containing 130k reviews
+Source: https://www.kaggle.com/datasets/christopheiv/winemagdata130k
+2) Wine descriptors dataset from an existing github project
+Source: https://github.com/RoaldSchuring/wine_recommender
+
+# Data Dictionary
+## Wine Reviews
+|Feature|Type|Description|
+|---|---|---|
+|country|object|The country where the wine was produced.|
+|description|object|Description of the wine's characteristics and tasting notes|
+|designation|object|The vineyard within the winery where the grapes for the wine were sourced from.|
+|points|int64|The number of points assigned to the wine on a scale of 1-100 by the wine reviewer.|
+|price|float64|The price of a bottle of the wine.|
+|province|object|The province or state within the country where the wine was produced.|
+|region_1|object|The first-level region within the province or state where the wine was produced (e.g. Napa Valley).|
+|region_2|object|The second-level region within the province or state where the wine was produced (e.g. Rutherford within Napa Valley).|
+|taster_name|object|The name of the wine reviewer.|
+|taster_Twitter_handle|object|The Twitter handle of the wine reviewer.|
+|title|object|The title of the wine review.|
+|variety|object|The type of grape used to produce the wine.|
+|winery|object|The name of the winery that produced the wine.|
+
+## Wine Descriptors
+|Feature|Type|Description|
+|---|---|---|
+|raw descriptor|object|A descriptor for a sensory attribute of the food or drink being evaluated (e.g. "sweetness", "acidity", "herbaceousness", etc.).|
+|level_3|object|A subcategory of the descriptor that provides additional detail about the attribute being evaluated (e.g. "fruit sweetness" for the "sweetness" descriptor).|
+|level_2|object|A broader category that groups together related descriptors and level_3 subcategories (e.g. "flavor").|
+|level_1|object|The highest level of categorization that groups together the level_2 categories (e.g. "aroma and flavor").|
