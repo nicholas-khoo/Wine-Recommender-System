@@ -56,6 +56,7 @@ Instead of scraping the website, two sources of data were explored:
 |level_1|object|The highest level of categorization that groups together the level_2 categories (e.g. "aroma and flavor").|
 
 # Exploratory Data Analysis
+
 <p align="center">
   <img src="[https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Top%2010%20Bigrams.png]" alt="Wine Prices Distribution" />
 </p>
