@@ -22,12 +22,12 @@ The system's potential to increase customer satisfaction and loyalty provides wi
 
 Data was originally scrapped from Wine Enthusiast Magazine (https://www.winemag.com/wine-ratings/), often abbreviated as WineMag or Winemag, a lifestyle magazine covering wine, food, travel, and entertaining topics. It was founded in 1988 and is based in New York City. The magazine is known for its ratings and reviews of wines from around the world, as well as its coverage of wine regions, wine-making techniques, and food pairings. WineMag is also recognized for its annual wine awards, including the Wine Star Awards, which honor excellence in the wine industry.
 
-It was later discovered in the Terms of Use that the use of scrapping tools was prohibited, as such, the scraping step was abandoned. You may still find the python code written for the scraping process in the code folder - 00_Data_Collection.ipynb.
+It was later discovered that the use of scraping tools within the site was prohibited, as such, this step was halted to prevent infrindgements with the terms of use. You may still find the python code written for the scraping process in the code folder and in the notebook "00_Data_Collection.ipynb".
 
 ![Wine Enthusiast Magazine Terms of Use](https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/wine-mag-terms.png) </br>
 Source: https://www.winemag.com/terms-of-use/
 
-Instead of scraping the website, two sources of data were explored:
+In continuation with the project, two other sources of data were explored:
 1) Wine Enthusiast Magazine dataset containing 130k reviews </br>
 (https://www.kaggle.com/datasets/christopheiv/winemagdata130k)
 
@@ -35,6 +35,9 @@ Instead of scraping the website, two sources of data were explored:
 (https://github.com/RoaldSchuring/wine_recommender)
 
 # Data Dictionary
+
+The datasets were cleaned to produce the resulting features. These features are later used in exploratory data analysis to uncover more insights surrounding wine as well as in machine learning, to build the recommender system.
+
 ## Wine Reviews
 
 |Feature|Type|Description|
@@ -148,6 +151,7 @@ The following models were trained and FunkSVD performed the best among the 11 mo
 |NonNegative Matrix Factorization|0.715417|0.246805|
 
 Hyperparameter tuning was then performed on FunkSVD to further enhance the performance. The final results are below:
+
 |Model|ave_precision@k_score|ave_recall@k_score|
 |---|---|---|
 |**Tuned FunkSVD**|**0.952778**|**0.225906**|
@@ -163,6 +167,14 @@ Hyperparameter tuning was then performed on FunkSVD to further enhance the perfo
 |Normal Predictor|0.719583|0.205594|
 |NonNegative Matrix Factorization|0.715417|0.246805|
 
+The tuned FunkSVD model was then tested to produce the top 10 recommendations of wine and compared to their actual rating to assess the model's capability to provide similar recommendations. The evaluation is done by creating a dataframe with the estimated match score (predicted ratings) for wines not previously rated by the user.
+
+The predictions are then made by the chosen model and are based on the user's past wine ratings.
+
 # Conclusion
 
+The tuned FunkSVD model performed the best, producing an average precision@k score of 0.952778 and an average recall@k score of 0.225906. These results suggests that the developed recommender system is effective in generating personalized recommendations based on individual taste preferences, occasions, and food pairing.
+
 # Limitations and Further Exploration
+
+The goal of the project is to build a simple wine recommender system. The dataset used in the project may not be representative of the entire wine industry and may not include all relevant features that could impact wine recommendations. Future exploration could include exploration of a larger dataset with more wine features to provide a more comprehensive wine recommender system.
