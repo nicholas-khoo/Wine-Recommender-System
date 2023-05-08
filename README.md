@@ -175,6 +175,8 @@ The predictions are then made by the chosen model and are based on the user's pa
   <img src="https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/recommended%20wines.png" alt="Wine Recommender" />
 </p>
 
+Based on the results, it appears that the recommender is performing well as the top 10 recommendations have high estimated match points (above 91) and high actual ratings (ranging from 94 to 100). 
+
 # Conclusion
 
 The tuned FunkSVD model performed the best, producing an average precision@k score of 0.952778 and an average recall@k score of 0.225906. These results suggests that the developed recommender system is effective in generating personalized recommendations based on individual taste preferences, occasions, and food pairing.
