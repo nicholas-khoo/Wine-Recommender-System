@@ -36,7 +36,7 @@ In continuation with the project, two other sources of data were explored:
 
 # Data Dictionary
 
-The datasets were cleaned to produce the resulting features. These features are later used in exploratory data analysis to uncover more insights surrounding wine as well as in machine learning, to build the recommender system.
+The datasets were cleaned to produce the resulting features. These features were later used in exploratory data analysis to uncover more insights surrounding wine as well as in machine learning, to build the recommender system.
 
 ## Wine Reviews
 
