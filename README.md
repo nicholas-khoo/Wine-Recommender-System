@@ -131,7 +131,7 @@ Similarly to the Top 10 words, the word cloud provides a better visual represent
 </p>
 Majority of the sentiments have a positive sentiment. The negative sentiment scores are more spread out and less frequent, which results in a left-skewed distribution.
 
-The mean score being 0.56 indiciates that the overall sentiment of the wine reviews is positive.
+</br> The mean score being 0.56 indiciates that the overall sentiment of the wine reviews is positive.
 
 # Machine Learning
 
