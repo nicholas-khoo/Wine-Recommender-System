@@ -89,9 +89,9 @@ There is a slight correlation between "points" and "price", but not a very stron
 <p align="center">
   <img src="https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Mean%20Points%20by%20Province.png" alt="Mean Points by Province" />
 </p>
-The plot suggests that wines produced in California tend to receive higher ratings on average than wines produced in the other three states. This could be due to a variety of factors, such as the climate and geography of the region, the types of grapes that are grown there, the expertise of the winemakers, or the reputation of the region.
+Wines produced in California tend to receive higher ratings on average than wines produced in the other three states. This could be due to a variety of factors, such as the climate and geography of the region, the types of grapes that are grown there, the expertise of the winemakers, or the reputation of the region.
 
-Similarly, the fact that Oregon and Washington have higher average ratings than New York suggests that there may be differences in the quality of wines produced in these regions, or differences in the preferences of wine critics and consumers.
+</br> Similarly, the fact that Oregon and Washington have higher average ratings than New York suggests that there may be differences in the quality of wines produced in these regions, or differences in the preferences of wine critics and consumers.
 
 <p align="center">
   <img src="https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Average%20Price%20by%20Province.png" alt="Average Price by Province" />
