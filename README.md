@@ -175,7 +175,7 @@ The predictions are then made by the chosen model and are based on the user's pa
   <img src="https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/recommended%20wines.png" alt="Wine Recommender" />
 </p>
 
-Based on the results, it appears that the recommender is performing well as the top 10 recommendations have high estimated match points (above 91) and high actual ratings (ranging from 94 to 100). 
+The matching points are a measure of similarity between the user's profile and the recommended item, while the points reflect the overall quality of the recommended item. Based on the high matching points and points, it can be concluded that the recommender system is performing well in generating high-quality recommendations that are relevant to the user's profile. 
 
 # Conclusion
 
