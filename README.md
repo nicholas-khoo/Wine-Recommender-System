@@ -29,7 +29,7 @@ Source: https://www.winemag.com/terms-of-use/
 
 In continuation with the project, two other sources of data were explored:
 1) Wine Enthusiast Magazine dataset containing 130k reviews </br>
-(https://www.kaggle.com/datasets/christopheiv/winemagdata130k)
+(https://www.kaggle.com/datasets/zynicide/wine-reviews)
 
 2) Wine descriptors dataset from an existing github project </br>
 (https://github.com/RoaldSchuring/wine_recommender)
