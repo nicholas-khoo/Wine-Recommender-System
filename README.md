@@ -98,7 +98,7 @@ Wines produced in California tend to receive higher ratings on average than wine
 </p>
 These regions may produce higher quality wines as consumers are often willing to pay a premium for them, and production costs may be higher as well, which consequently drives up the price of the wines.
 
-Additionally, the higher demand for wines from these regions compared to wines from other regions could also contribute to the higher prices observed.
+</br> Additionally, the higher demand for wines from these regions compared to wines from other regions could also contribute to the higher prices observed.
 
 <p align="center">
   <img src="https://github.com/nicholas-khoo/Wine-Recommender-System/blob/main/images/Top%2010%20Words.png" alt="Top 20 Words" />
