@@ -179,8 +179,12 @@ Based on the results, it appears that the recommender is performing well as the 
 
 # Conclusion
 
-The tuned FunkSVD model performed the best, producing an average precision@k score of 0.952778 and an average recall@k score of 0.225906. These results suggests that the developed recommender system is effective in generating personalized recommendations based on individual taste preferences, occasions, and food pairing.
+The tuned FunkSVD model performed the best, producing an average precision@k score of 0.952778 and an average recall@k score of 0.225906.
+
+</br> These results suggests that the developed recommender system is effective in generating personalized recommendations based on individual taste preferences, occasions, and food pairing.
 
 # Limitations and Further Exploration
 
-The goal of the project is to build a simple wine recommender system. The dataset used in the project may not be representative of the entire wine industry and may not include all relevant features that could impact wine recommendations. Future exploration could include exploration of a larger dataset with more wine features to provide a more comprehensive wine recommender system.
+The goal of the project is to build a simple wine recommender system. The dataset used in the project may not be representative of the entire wine industry and may not include all relevant features that could impact wine recommendations.
+
+</br> Future exploration could include exploration of a larger dataset with more wine features to provide a more comprehensive wine recommender system.
