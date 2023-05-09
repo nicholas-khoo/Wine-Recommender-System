@@ -117,7 +117,7 @@ These regions may produce higher quality wines as consumers are often willing to
 </p>
 Fruit flavors are highly emphasized in the descriptions, with `fruit flavors` and `cherry fruit` being two of the bigrams. Other common descriptors include `full-bodied`, `black cherry`, `black pepper`, and `dark chocolate`.
 
-The mention of specific grape varieties such as `cabernet sauvignon`, `cabernet franc`, and `petit verdot` also indicates that these grapes are popular and commonly used in winemaking.
+</br> The mention of specific grape varieties such as `cabernet sauvignon`, `cabernet franc`, and `petit verdot` also indicates that these grapes are popular and commonly used in winemaking.
 
 The use of terms like `french oak` suggests that the type of oak used for aging may also be an important factor in the flavor profile of the wines.
 
