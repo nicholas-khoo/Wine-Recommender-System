@@ -77,8 +77,7 @@ Distribution of wine prices is heavily right-skewed with majority of the wines b
 </p>
 Wines with ratings of 90-92 are the most common in the dataset. This suggests that these ratings may be the most "typical" or "average" for wines in this dataset.
 
-
-Wines with ratings below 89 or above 95 are relatively rare, with fewer than 500 wines receiving these ratings. This suggests that wines with extreme ratings are less common in the dataset, which could be due to a variety of factors, such as the scoring criteria used by the tasters, the selection of wines in the dataset, or other factors.
+</br> Wines with ratings below 89 or above 95 are relatively rare, with fewer than 500 wines receiving these ratings. This suggests that wines with extreme ratings are less common in the dataset, which could be due to a variety of factors, such as the scoring criteria used by the tasters, the selection of wines in the dataset, or other factors.
 
 There are only a small number of wines in the dataset with ratings above 95. This could suggest that these wines are particularly rare or exceptional, and may be of particular interest to wine enthusiasts or collectors.
 
