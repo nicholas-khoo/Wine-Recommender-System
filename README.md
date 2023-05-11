@@ -135,6 +135,10 @@ Majority of the sentiments have a positive sentiment. The negative sentiment sco
 
 # Machine Learning
 
+The recommender system being developed for the wine industry will use a content-based filtering approach. Specifically, the system analyzes the content of wine reviews to extract key descriptors such as type, region, vintage, and flavor. The most frequently occurring descriptors are then identified using CountVectorizer, and a final dataset is created that includes the taster name, wine title, and points.
+
+When a user provides feedback on a particular wine, the system uses the key descriptors associated with that wine to filter through the wine dataset and generate personalized recommendations based on the user's preferences. This personalized approach takes into account the specific attributes of wines that each user enjoys, resulting in a more targeted and effective recommendation system.
+
 The following models were trained and FunkSVD performed the best among the 11 models. </br>
 |Model|ave_precision@k_score|ave_recall@k_score|
 |---|---|---|
